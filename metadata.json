@@ -1,0 +1,6 @@
+{
+  "name": "InsightPilot AI — Your AI Data Analyst",
+  "description": "Professional AI-powered data analyst dashboard. Upload any business data file to preview rows, calculate dynamic KPIs, visualize charts, clean datasets, run an autonomous AI Analyst Agent, query data with an AI SQL Assistant, and export automated business reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

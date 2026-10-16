@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #0f172a !important;
+    font-size: 11pt;
+  }
+  
+  header, footer, nav, input, select, .print\:hidden {
+    display: none !important;
+  }
+
+  #business-report-print-container {
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  section, .rounded-2xl, .rounded-3xl {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
